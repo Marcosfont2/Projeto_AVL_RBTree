@@ -7,6 +7,7 @@ O programa lê usuários de um arquivo JSON, embaralha a ordem, insere em duas �
 ---
 
 ## 📂 Organização de Pastas
+``` bash
 arvores-balanceadas/
 │
 ├── src/ # Código-fonte (.cpp)
@@ -28,6 +29,7 @@ arvores-balanceadas/
 └── users.json
 
 ---
+```
 
 ## ⚙️ Dependências
 
@@ -42,6 +44,7 @@ Abra o terminal na raiz do projeto (onde está este README.md) e execute:
 
 ```bash
 g++ src/*.cpp -Iinclude -Iexternal -std=c++17 -o arvore
+```
 
 👨‍💻 Sobre o Autor
 Nome: Marcos Antônio Fontes Leite
