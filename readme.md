@@ -46,7 +46,7 @@ Abra o terminal na raiz do projeto (onde está este README.md) e execute:
 g++ src/*.cpp -Iinclude -Iexternal -std=c++17 -o arvore
 ```
 
-👨‍💻 Sobre o Autor
+## 👨‍💻 Sobre o Autor
 
 Nome: Marcos Antônio Fontes Leite
 
