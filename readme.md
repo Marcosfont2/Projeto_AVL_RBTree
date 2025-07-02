@@ -50,4 +50,4 @@ g++ src/*.cpp -Iinclude -Iexternal -std=c++17 -o arvore
 
 Nome: Marcos Antônio Fontes Leite
 
-Disciplina: Linguagem de Programação II.
+Disciplina: Estrutura de Dados Básica II.
