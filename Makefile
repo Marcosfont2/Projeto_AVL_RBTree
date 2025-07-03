@@ -1,12 +1,21 @@
 CXX = g++
-CXXFLAGS = -std=c++17 -Iinclude -Iexternal
+CXXFLAGS = -std=c++17 -Wall -Iinclude -Iexternal
+
+
 SRC = $(wildcard src/*.cpp)
+OBJ = $(SRC:.cpp=.o)
 OUT = arvore
+
 
 all: $(OUT)
 
-$(OUT): $(SRC)
-	$(CXX) $(CXXFLAGS) -o $(OUT) $(SRC)
+
+$(OUT): $(OBJ)
+	$(CXX) $(CXXFLAGS) -o $@ $^
+
+
+src/%.o: src/%.cpp
+	$(CXX) $(CXXFLAGS) -c $< -o $@
 
 clean:
-	rm -f $(OUT)
+	rm -f src/*.o $(OUT)

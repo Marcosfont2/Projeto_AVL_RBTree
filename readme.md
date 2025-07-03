@@ -45,6 +45,19 @@ Abra o terminal na raiz do projeto (onde está este README.md) e execute:
 ```bash
 g++ src/*.cpp -Iinclude -Iexternal -std=c++17 -o arvore
 ```
+Caso prefira, pode usar Makefile:
+```bash
+make
+```
+Em ambos os casos, depois use para executar:
+```bash
+./arvore
+```
+Para eliminar os executáveis gerados no processo de compilação, use:
+``` bash
+make clean
+```
+
 
 ## 👨‍💻 Sobre o Autor
 
