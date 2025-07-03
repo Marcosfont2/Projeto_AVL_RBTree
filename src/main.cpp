@@ -28,10 +28,10 @@ int main() {
         }
     }
 
-    std::cout << "\nAVL Tree after removal of primes:\n";
+    std::cout << "\nAVL Tree after depois de remover os primos:\n";
     avl.printTree();
 
-    std::cout << "\nRed-Black Tree after removal of primes:\n";
+    std::cout << "\nRed-Black Tree depois de remover os primos:\n";
     rb.printTree();
 
     return 0;
