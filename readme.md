@@ -8,7 +8,7 @@ O programa lê usuários de um arquivo JSON, embaralha a ordem, insere em duas �
 
 ## 📂 Organização de Pastas
 ``` bash
-arvores-balanceadas/
+Projeto_AVL_RBTree/
 │
 ├── src/ # Código-fonte (.cpp)
 │ ├── main.cpp
@@ -64,3 +64,4 @@ make clean
 Nome: Marcos Antônio Fontes Leite
 
 Disciplina: Estrutura de Dados Básicas II.
+
