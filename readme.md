@@ -63,4 +63,4 @@ make clean
 
 Nome: Marcos Antônio Fontes Leite
 
-Disciplina: Estrutura de Dados Básica II.
+Disciplina: Estrutura de Dados Básicas II.
