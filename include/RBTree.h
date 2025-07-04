@@ -30,7 +30,7 @@ private:
 
     void deleteNode(RBNode* z);
     void deleteFixup(RBNode* x);
-
+    
     void printTree(RBNode* node, std::string indent, bool last);
 
 public:

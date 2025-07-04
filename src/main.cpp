@@ -33,6 +33,8 @@ int main() {
 
     std::cout << "\nRed-Black Tree depois de remover os primos:\n";
     rb.printTree();
+    
+
 
     return 0;
 }

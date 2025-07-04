@@ -1,6 +1,7 @@
 #include "RBTree.h"
 #include <iostream>
 
+
 RBTree::RBTree() {
     NIL = new RBNode(User());
     NIL->color = BLACK;

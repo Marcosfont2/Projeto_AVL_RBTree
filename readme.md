@@ -31,6 +31,41 @@ Projeto_AVL_RBTree/
 ---
 ```
 
+## 📌 Como interpretar a saída das árvores no terminal
+
+Este programa imprime a estrutura das árvores AVL e Rubro-Negra diretamente no terminal, em formato de diagrama de texto. 
+
+A saída serve para entender a hierarquia e o balanceamento das árvores de forma visual.
+
+### ✅ Exemplo de saída para uma Árvore Rubro-Negra:
+
+```bash
+└── joao(20)[B]
+├── maria(10)[R]
+│ ├── ana(5)[B]
+│ └── pedro(15)[B]
+└── lucas(30)[B]
+├── bruno(25)[R]
+└── carla(35)[R]
+```
+### ✅ Como ler a saída:
+
+- Cada linha representa **um nó da árvore**.
+- O **texto entre parênteses** mostra o `userid` do usuário.
+- Os **colchetes** indicam a **cor** do nó na Árvore Rubro-Negra:
+  - `[R]` = Vermelho
+  - `[B]` = Preto
+- As linhas e símbolos:
+  - `└──` ou `├──` mostram a ligação de pai para filho.
+  - A **indentação** indica o nível de profundidade na árvore.
+
+### ✅ Diferença entre AVL e Rubro-Negra:
+
+- **AVL Tree**: não exibe cor. A estrutura é impressa do mesmo jeito, mas sem os `[R]` ou `[B]`.
+- **Rubro-Negra**: exibe a cor de cada nó, ajudando a visualizar as propriedades de balanceamento específicas desta árvore.
+
+---
+
 ## ⚙️ Dependências
 
 - Compilador com suporte a C++17 ou superior (g++, clang++, MSVC)
